@@ -1,0 +1,14 @@
+FROM node:26-alpine3.23
+
+RUN npm install -g @angular/cli
+
+
+COPY . /data/Angular-Framework
+
+WORKDIR /data/Angular-Framework
+
+EXPOSE 4200
+
+# Start the Angular development server
+CMD ["ng", "serve", "--host", "0.0.0.0"]
+
