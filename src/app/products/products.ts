@@ -38,7 +38,7 @@ export class Products implements OnInit{
 
       this.product.deleteProduct(product).subscribe({
         next: value => {
-          this.product.getAllProducts()
+          this.getAllProduct()
         },
         error: err => {
           console.log(err)

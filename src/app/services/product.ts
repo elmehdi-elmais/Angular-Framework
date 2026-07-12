@@ -13,7 +13,7 @@ export class Product {
   }
   deleteProduct(product: any): Observable<any>{
     //this.products = this.products.filter(p=>p.id != product.id);
-    this.http.delete("\"http://192.168.1.164:8085/products/"+product.id+"");
-    return this.getAllProducts();
+    return this.http.delete("http://192.168.1.164:8085/products/"+product.id+"");
+
   }
 }
