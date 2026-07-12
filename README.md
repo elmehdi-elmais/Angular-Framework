@@ -2,7 +2,9 @@
 
 ## Présentation
 
-Ce projet est une application web construite avec **Angular**, qui consomme une API REST développée en **Spring Boot** (projet `Spring-Data-JPA-Hibernate`). Elle permet d'afficher, sélectionner et supprimer des produits.
+Ce projet est une application web construite avec **Angular**, qui consomme une API REST développée en **Spring Boot** (projet 
+[`Spring-Data-JPA-Hibernate`](https://github.com/elmehdi-elmais/Spring-Data-JPA-Hibernate/tree/backend-angular?authuser=0)
+). Elle permet d'afficher, sélectionner et supprimer des produits.
 
 L'objectif est de comprendre les bases d'Angular : composants, services, routing, injection de dépendances, et communication avec une API backend via HTTP.
 
@@ -158,19 +160,13 @@ Cette application consomme l'API du projet `Spring-Data-JPA-Hibernate`. Il faut 
 
 ### 1. Page d'accueil
 
-![Page d'accueil](screenshots/home.png)
+![alt text](image-1.png)
 
 ### 2. Liste des produits
 
 Affichage de tous les produits récupérés depuis l'API Spring Boot.
 
-![alt text](image-1.png)
-### 3. Produit sélectionné / non sélectionné
-
-La colonne "Selected" affiche une icône différente selon l'état du produit.
-
-![État sélectionné](screenshots/products-selected.png)
-
+![alt text](image.png)
 ### 4. Suppression d'un produit
 
 Une confirmation est demandée avant la suppression.
